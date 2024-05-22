@@ -1,0 +1,14 @@
+{
+  "name": "tdzain",
+  "version": "1.0.0",
+  "description": "API com dados para perfil, destinado ao teste prático oferecido pela TdZain.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kauan Iasin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
