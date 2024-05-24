@@ -1,5 +1,3 @@
-  // server.js
-
   const express = require("express");
   const bodyParser = require("body-parser");
   const app = express();
@@ -34,7 +32,7 @@
   app.post("/user", (req, res) => {
     const newData = { ...user, ...req.body };
     user = { ...newData };
-    res.status(201).json({user});
+    res.status(201).json(user);
     console.log("POST", req.body);
   });
   // Iniciar o servidor
