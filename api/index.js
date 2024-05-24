@@ -32,7 +32,7 @@
   app.post("/user", (req, res) => {
     const newData = { ...user, ...req.body };
     user = { ...newData };
-    res.status(201).json(user);
+    res.status(201).json({...user, resStatus: 'Sucess!'});
     console.log("POST", req.body);
   });
   // Iniciar o servidor
